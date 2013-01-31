@@ -1,0 +1,6 @@
+.Python
+*.ipynb
+bin
+include
+ipython
+lib
