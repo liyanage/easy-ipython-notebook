@@ -12,5 +12,11 @@ Run the combined installer/launcher script:
 
     ./easy-ipython-notebook.sh
 
-This will download and install IPython and some required modules into a virtualenv
-and launch the notebook feature.
+This will
+- initialize a virtualenv
+- download and install IPython
+- download and install some required modules
+- launch the notebook server
+- take you to Safari where you can create a new notebook
+
+To stop the server, go back to the Terminal and hit Ctrl-C.
