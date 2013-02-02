@@ -1,4 +1,7 @@
 #!/bin/sh
+#
+# See https://github.com/liyanage/easy-ipython-notebook for more information
+#
 
 set -e
 
