@@ -35,5 +35,5 @@ if ! [ -e ipython ]; then
     git clone https://github.com/ipython/ipython.git
 fi
 
-PYTHONPATH=$PWD/ipython python ipython/ipython.py notebook
+PYTHONPATH=$PWD/ipython python ipython/ipython.py notebook --port 7777
 
