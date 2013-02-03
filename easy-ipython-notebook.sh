@@ -6,7 +6,7 @@
 set -e
 
 # System-wide install of PIP, if it's not already available
-if ! type pip >/dev/null 2>&1; then
+if ! pip freeze >/dev/null 2>&1; then
 	sudo easy_install pip
 fi
 
